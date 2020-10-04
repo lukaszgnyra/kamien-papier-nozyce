@@ -55,7 +55,7 @@ const game = () => {
 const tabela = () =>{
     document.querySelector('.win').textContent= scoresTable[0];
     document.querySelector('.loss').textContent= scoresTable[1];
-    document.querySelector('.remis').textContent= scoresTable[2];
+    // document.querySelector('.remis').textContent= scoresTable[2];
 }
 rock.addEventListener('click', caseRock);
 paper.addEventListener('click', casePaper);
