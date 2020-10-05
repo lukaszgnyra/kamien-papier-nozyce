@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/49242c5bc9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="all">
     <div class="title">Kamień Papier Nożyce</div>
 
     
@@ -17,8 +18,35 @@
                 GRA
             </div>
             <div class="row">
-                <div class="column">Wybierz:</div>
-                <div class="column">Komputer:</div>
+                <div class="column">
+                    <div>Gracz:</div>
+                    <div class="row-min">
+                        <div class="person"><span>Wybierz:</span> </div>
+                    </div>
+                    <div class="row-min">
+                        <div class="col-min">
+                            <button class="rock"><i class="far fa-hand-rock"></i></button>
+                        </div>
+                        <div class="col-min">
+                            <button class="paper"><i class="far fa-hand-paper"></i></button>
+                        </div>
+                        <div class="col-min">
+                            <button class="scissors"><i class="far fa-hand-scissors"></i></button>
+                        </div>
+                    </div>
+                
+                
+                </div>
+                <div class="column">
+                    <div> Komputer:</div> 
+                    <div class="row-min">
+                        <div class="computer"><span>Oczekuje na los...</span> </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="score"><span>Zagraj</span></div>
             </div>
         </div>
         <div class="scoresTable flex-container">
@@ -44,12 +72,12 @@
     </div>
     
     
-    <div class="computer">Los komputera: <span></span> </div>
-    <div class="person">Twój los: <span></span> </div>
-    <div class="score"><span>Zagraj</span></div>
-    <button class="rock"><i class="far fa-hand-rock"></i></button>
-    <button class="paper"><i class="far fa-hand-paper"></i></button>
-    <button class="scissors"><i class="far fa-hand-scissors"></i></button>
+
+    
+    
+    
+    
+    
     <script src="main.js"></script>
 </body>
 </html>

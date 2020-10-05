@@ -2,10 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    
+    background-color: gray;
+}
+.all{
+   margin-top: 100px;
+}
+.title{
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
 }
 .flex-container{
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 800px;
@@ -21,7 +35,7 @@
     display: flex;
     flex: 50%;
     max-width: 50%;
-   
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .reseting{
@@ -43,8 +57,30 @@
 
 /* Gra */
 .game{
-    border: 2px solid black;
+    border: 2px solid rgb(105, 89, 89);
     border-radius: 10%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.row-min{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+}
+.col-min{
+    flex: 33.3%;
+    max-width: 33.3%;
+    justify-content: space-around;
+    display: flex;
+}
+.col-min button{
+    justify-content: space-between;
+    padding: 5px;
+    flex: 30%;
+    margin: 5px;
+    font-size: 20px;
 }
